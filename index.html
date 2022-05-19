@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&display=swap');
+        body{
+            background-color: #B7B7B7;
+            font-family: 'Barlow Condensed', sans-serif;
+
+
+font-family: 'Oswald', sans-serif;
+        }
+        .head {
+            height: 9.5vw;
+            padding: 1.5%;
+            background-color: #303846;
+            border: #303846;
+            border-radius: 0% 0% 5% 5%;
+        }
+        
+        .img {
+            margin: 0% 2vw;
+            height: 10vw;
+            width: 10vw;
+            display: inline;
+            border-radius: 50%;
+            transition:transform 1s;
+        }
+        .img:hover{
+            transform: rotate(360deg);
+        }
+        
+        .h1 {
+            font-size: 2vw;
+            display: inline;
+            margin: .2vw 3vw;
+            position: fixed;
+            color: #B7B7B7;
+        }
+        
+        .h5 {
+            font-size: 1.3vw;
+            display: inline;
+            margin: 3vw 0% 2% 3%;
+            position: fixed;
+            color: gray;
+        }
+        .span{
+            font-size: 1vw;
+            display: inline;
+            margin: 5vw 0% 2% 3%;
+            position: fixed;
+            color: gray;
+        }
+        .address{
+            font-size: 1vw;
+            display: inline;
+            margin: 7vw 0% 2% 3%;
+            position: fixed;
+            color: gray;
+            
+        }
+        .cs{
+            margin: 1vw 2vw 1vw 4vw;
+            display: inline-block;
+        }
+        .csh3{
+            font-size: 2vw;
+            margin-bottom: 2vw;
+            margin-top: 2vw;
+        }
+        .myhr{
+            margin-top: 2vw;
+            width: 93%;
+            opacity: .5;
+            border: .1vh dashed gray;
+            
+        }
+        .csp{
+            font-size: 1.5vw;
+            margin-bottom: 2vw;
+        }
+        li{
+            list-style: decimal;
+        }
+        .cimg{
+            width: 15vw;
+            height: 13vw;
+            margin-right: 3vw;
+            transition: transform .2s;
+            border: .3vw solid #798292;
+            border-radius: 2vw;
+        }
+        .cimg:hover{
+            transform: scale(1.1);
+        }
+        .cimgtxt{
+            font-size: 1.2vw;
+            width: 15vw;
+            margin: 1vw 0vw .1vw 2.2vw;
+            display: inline-block;
+        }
+        .ps{
+            display: inline-block;
+            margin-top:-14%;
+            position: fixed;
+            margin: 1vw;
+            border-left:.1vw solid #909294;
+            width: 34vw;
+            height: 53vw;
+            padding-left: 3vw;
+        }
+        .ph1{
+            font-size: 2vw;
+            margin-bottom:1vw;
+        }
+        
+        .ph2{
+            font-size: 2vw;
+            margin: 1vw 0vw;
+        }
+        
+        .gender{
+            margin-top: 1vw;
+            font-size: 1.3vw;
+        }
+        .skillr {
+            -webkit-appearance: none;
+            width: 30vw;
+            height: 1.3vw;
+            background: gray;
+            /* border:.1vw solid black; */
+            opacity: .6;
+            border-radius: 3%;
+        }
+        .abbr{
+            text-decoration: underline;
+        }
+    </style>
+    <header class="head">
+        <img class="img" src="img/4.jpg" alt="">
+        <h1 class="h1 h">ABDUL BASIT ANSARI</h1>
+        <h5 class="h5 h">Welcome To My C.V</h5>
+        <span class="span">✉ abdulbasitansari288@gmail.com&nbsp;     &nbsp;📞03079357685</span>
+        <p class="address">🏠Orangi Twon Karachi Pakistan</p>
+    </header>
+
+    <div class="cs">
+        <h3 class="csh3">Courses</h3>
+        
+        <p><li class="csp"><b><abbr class="abbr" title="Sylani Mass I.T Traning">S.M.I.T</abbr></b> Certified Python Programing Course</li></p>
+        <p><li class="csp">Online Freelance Course By <b> Jawan Pakistan</b></li></p>
+        <p><li class="csp"> MERN Stack Web Development By <b> Sysborg</b></li></p>
+<hr class="myhr">
+        <h3 class="csh3">Certificates</h3>
+        <a target="blank" href="img/c1.jpeg"><img class="cimg" src="img/c1.jpeg" alt="This Image Not Show In This Dvice"></img></a>
+        <a target="blank" href="img/c2.jpeg"><img class="cimg" src="img/c2.jpeg" alt="This Image Not Show In This Dvice"></img></a>
+        <a target="blank" href="img/c3.png"><img class="cimg" src="img/c3.png" alt="This Image Not Show In This Dvice"></img></a>
+        <br>
+        <p class="cimgtxt">Responsive Web Deign Certification By Sololearn</p>
+        <p class="cimgtxt">Google Analytics Certification By Google</p>
+        <p class="cimgtxt">Sylani's Python Programing Certification By CISCO</p>
+
+    </div>
+    <div class="ps">
+        <h1 class="ph1">Personal Info</h1>
+        <p class="gender"><b>Date Of Birth</b></p>
+        <p class="gender"><i>25 March 2005</i></p>
+        
+        <p class="gender"><b>Gender</b></p>
+        <p class="gender"><i>Male</i></p>
+
+        <p class="gender"><b>Last Qualification</b></p>
+        <p class="gender"><i>Matric</i></p>
+       <hr class="myhr"> 
+        <h1 class="ph2">Perosnal Accounts</h1>
+        
+        <p class="gender"><b>Linkedin</b></p>
+        <p class="gender"><i>https://www.linkedin.com/in/abdul-basit-ansari-9b740b21b/</i></p>
+        
+        
+        <p class="gender"><b>Github</b></p>
+        <p class="gender"><i>https://github.com/Abdul-Basit-Ansari</i></p>
+        
+        
+        <p class="gender"><b>Website</b></p>
+        <p class="gender"><i>https://abdulbasitansarinewyear.netlify.app</i></p>
+        
+       <hr class="myhr">  
+
+       <h1 class="ph2">Skills</h1>
+       
+       <p class="gender"><b>Coding</b></p>
+       <p class="gender"><i><input type="range" class="skillr" name="range" value="10" id="coding" disabled></i></p>
+       <p class="gender"><b>Image Editing & Canva</b></p>
+       <p class="gender"><i><input type="range" class="skillr" name="range" value="60" id="coding" disabled></i></p>
+
+    </div>
+</body>
+
+</html>
