@@ -15,7 +15,9 @@
             padding: 0%;
         }@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&display=swap');
         body{
-            background-color: #B7B7B7;
+            background-color: #706e6e;
+            
+            background-image: linear-gradient(to right, #746f6f,#ada2a2 , white);
             font-family: 'Barlow Condensed', sans-serif;
 
 
@@ -25,6 +27,8 @@ font-family: 'Oswald', sans-serif;
             height: 9.5vw;
             padding: 1.5%;
             background-color: #303846;
+            
+            background-image: linear-gradient(to right,#303846,#3c4350,#6d6f70 );
             border: #303846;
             border-radius: 0% 0% 5% 5%;
         }
@@ -72,24 +76,25 @@ font-family: 'Oswald', sans-serif;
             
         }
         .cs{
-            margin: 1vw 2vw 1vw 4vw;
+            margin: 1vw .2vw 1vw 4vw;
             display: inline-block;
         }
         .csh3{
             font-size: 2vw;
-            margin-bottom: 2vw;
-            margin-top: 2vw;
+            margin-bottom: 1.5vw;
+            margin-top: 1.7vw;
         }
         .myhr{
-            margin-top: 2vw;
+            margin-top: 1vw;
             width: 93%;
             opacity: .5;
-            border: .1vh dashed gray;
+            border: .1vh dashed rgb(54, 54, 54);
+
             
         }
         .csp{
             font-size: 1.5vw;
-            margin-bottom: 2vw;
+            margin-bottom: 1.5vw;
         }
         li{
             list-style: decimal;
@@ -108,14 +113,13 @@ font-family: 'Oswald', sans-serif;
         .cimgtxt{
             font-size: 1.2vw;
             width: 15vw;
-            margin: 1vw 0vw .1vw 2.2vw;
+            margin: .7vw 0vw .1vw 2.2vw;
             display: inline-block;
         }
         .ps{
             display: inline-block;
-            margin-top:-14%;
             position: fixed;
-            margin: 1vw;
+            margin: 1vw 1vh 1vh .3vh;
             border-left:.1vw solid #909294;
             width: 34vw;
             height: 53vw;
@@ -138,11 +142,51 @@ font-family: 'Oswald', sans-serif;
         .skillr {
             -webkit-appearance: none;
             width: 30vw;
-            height: 1.3vw;
+            height: .5vw;
             background: gray;
-            /* border:.1vw solid black; */
+            border:.1vw solid rgb(100, 97, 97);
             opacity: .6;
             border-radius: 3%;
+        }
+        .skillr::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 5vh;
+        height: .5vh;
+        background: black;
+      
+        }
+
+        .skillr::-moz-range-thumb {
+            width: 30vh;
+        height: 1vh;
+        background: black;
+        
+        }
+        .skillr2 {
+            -webkit-appearance: none;
+            width: 30vw;
+            height: .5vw;
+            background: gray;
+            border:.1vw solid rgb(100, 97, 97);
+            opacity: .6;
+            border-radius: 3%;
+        }
+        .skillr2::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 25vh;
+        height: .6vh;
+        border-radius: 3%;
+        background: black;
+      
+        }
+
+        .skillr2::-moz-range-thumb {
+            width: 30vh;
+        height: 1vh;
+        background: black;
+        
         }
         .abbr{
             text-decoration: underline;
@@ -164,9 +208,9 @@ font-family: 'Oswald', sans-serif;
         <p><li class="csp"> MERN Stack Web Development By <b> Sysborg</b></li></p>
 <hr class="myhr">
         <h3 class="csh3">Certificates</h3>
-        <a target="blank" href="img/c1.jpeg"><img class="cimg" src="img/c1.jpeg" alt="This Image Not Show In This Dvice"></img></a>
-        <a target="blank" href="img/c2.jpeg"><img class="cimg" src="img/c2.jpeg" alt="This Image Not Show In This Dvice"></img></a>
-        <a target="blank" href="img/c3.png"><img class="cimg" src="img/c3.png" alt="This Image Not Show In This Dvice"></img></a>
+        <a target="blank" href="img/c1.jpeg"><img class="cimg" src="img/c1.jpeg" alt="Image Can't Display"></img></a>
+        <a target="blank" href="img/c2.jpeg"><img class="cimg" src="img/c2.jpeg" alt="Image Can't Display"></img></a>
+        <a target="blank" href="img/c3.png"><img class="cimg" src="img/c3.png" alt="Image Can't Display"></img></a>
         <br>
         <p class="cimgtxt">Responsive Web Deign Certification By Sololearn</p>
         <p class="cimgtxt">Google Analytics Certification By Google</p>
@@ -175,14 +219,11 @@ font-family: 'Oswald', sans-serif;
     </div>
     <div class="ps">
         <h1 class="ph1">Personal Info</h1>
-        <p class="gender"><b>Date Of Birth</b></p>
-        <p class="gender"><i>25 March 2005</i></p>
+        <p class="gender"><b>Date Of Birth</b>&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<i>25 March 2005</i></p>
+        <p class="gender"><b>Gender</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<i>Male</i></p>
         
-        <p class="gender"><b>Gender</b></p>
-        <p class="gender"><i>Male</i></p>
-
-        <p class="gender"><b>Last Qualification</b></p>
-        <p class="gender"><i>Matric</i></p>
+        
+        <p class="gender"><b>Last Qualification</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<i>Matric</i></p>
        <hr class="myhr"> 
         <h1 class="ph2">Perosnal Accounts</h1>
         
@@ -191,20 +232,22 @@ font-family: 'Oswald', sans-serif;
         
         
         <p class="gender"><b>Github</b></p>
-        <p class="gender"><i>https://github.com/Abdul-Basit-Ansari</i></p>
+        <p class="gender"><i>https://www.github.com/Abdul-Basit-Ansari</i></p>
         
         
-        <p class="gender"><b>Website</b></p>
-        <p class="gender"><i>https://abdulbasitansarinewyear.netlify.app</i></p>
+        <p class="gender"><b>Websites</b></p>
+        <p class="gender"><i>https://abdulbasitansarinewyear.netlify.app<br><br>https://abdul-basit-ansari.github.io/my-cv/<br><br>https://abdulbasit-calculator.netlify.app/</i></p>
         
        <hr class="myhr">  
 
        <h1 class="ph2">Skills</h1>
        
        <p class="gender"><b>Coding</b></p>
-       <p class="gender"><i><input type="range" class="skillr" name="range" value="10" id="coding" disabled></i></p>
-       <p class="gender"><b>Image Editing & Canva</b></p>
-       <p class="gender"><i><input type="range" class="skillr" name="range" value="60" id="coding" disabled></i></p>
+       <input type="range" class="skillr" name="range" value="-1" id="coding" disabled>
+       <p class="gender"><b>Image Editing</b></p>
+       <input type="range" class="skillr2" name="range" value="-1" id="coding" disabled>
+       <p class="gender"><b>Canva</b></p>
+       <input type="range" class="skillr2" name="range" value="-1" id="coding" disabled>
 
     </div>
 </body>
